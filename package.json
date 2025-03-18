@@ -1,0 +1,19 @@
+{
+  "name": "wso2-auth-mock-service",
+  "version": "1.0.0",
+  "description": "Mock service for WSO2 Identity Server Application-native Authentication API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
