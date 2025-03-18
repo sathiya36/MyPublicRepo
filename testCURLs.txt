@@ -1,0 +1,14 @@
+curl --location 'http://localhost:3000/authorize?response_type=code&client_id=12312313123&redirect_uri=localhost%3A3000&response_mode=direct'
+
+curl --location 'http://localhost:3000/authn' \
+--header 'Content-Type: application/json' \
+--data '{
+  "flowId": "22495319-c2f7-4caa-9fea-c605a6497718",
+  "selectedAuthenticator": {
+    "authenticatorId": "QmFzaWNBdXRoZW50aWNhdG9yOkxPQ0FM",
+    "params": {
+      "username": "admin",
+      "password": "admin"
+    }
+  }
+}'
